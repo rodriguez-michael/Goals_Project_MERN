@@ -1,0 +1,31 @@
+{
+  "name": "goals_project_mern",
+  "version": "1.0.0",
+  "description": "Goal setter application!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodriguez-michael/Goals_Project_MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodriguez-michael/Goals_Project_MERN/issues"
+  },
+  "homepage": "https://github.com/rodriguez-michael/Goals_Project_MERN#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
