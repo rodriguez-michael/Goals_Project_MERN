@@ -2,6 +2,9 @@
 //express async handler used instead of try/catch 
 const asyncHandler = require('express-async-handler')
 
+//goal model
+const Goal = require('../models/goalModel')
+
 // @desc     Get all goals
 // @route    GET /api/goals
 // @access   Private
